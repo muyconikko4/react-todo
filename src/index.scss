@@ -1,0 +1,20 @@
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.app-main {
+    height: 100vh;
+    
+
+    display: grid;
+    place-items: center;
+
+    @import './home.scss';
+    @import './todolist.scss';
+
+}
+
